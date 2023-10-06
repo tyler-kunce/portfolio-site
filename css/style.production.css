@@ -270,10 +270,10 @@ button:focus,
         fill: #58595b;
     }
     50% {
-        fill: #bcbcbd;
+        fill: #fed141;
     }
     100% {
-        fill: #ffffff;
+        fill: #ff3b01;
     }
 }
 
@@ -282,10 +282,10 @@ button:focus,
         fill: #58595b;
     }
     50% {
-        fill: #bcbcbd;
+        fill: #fed141;
     }
     100% {
-        fill: #ffffff;
+        fill: #ff3b01;
     }
 }
 
