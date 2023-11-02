@@ -171,6 +171,11 @@ button:focus,
 }
 /* end grid fallback */
 
+.error-message {
+    color: red;
+    font-size: 0.8em;
+}
+
 @supports (display: grid) {
     .grid {
         display: grid;
