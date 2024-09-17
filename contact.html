@@ -39,35 +39,30 @@
             </ul>
         </nav>
     </header>
+    <div class="contact-info">
+        <div>
+            <h1>Contact Me</h1>
+        </div>
+    
+    
+        <form action="" method="post" id="contact-form">
+            <label class="standard-label form__elements" for="contact-email">Email: </label>
+            <input type="email" id="contact-email" placeholder="john.smith@email.com" required>
+
+            <label class="standard-label form__elements" for="contact-tel">Telephone: </label>
+            <input type="tel" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="123-456-7890" required>
+
+            <label class="standard-label form__elements" for="contact-message">Message: </label>
+            <textarea maxlength="255" id="contact-message" required placeholder="Provide a brief message about yourself and the reason you're reaching out."></textarea>
+
+            <input type="submit" value="Send message">
+        </form>
+
     <div>
-        <h1>Contact Tyler Kunce</h1>
+        <a href="mailto:tyler.kunce@gmail.com">Email</a><br>
+        <a href="www.linkedin.com/in/tyler-kunce-1409044a">LinkedIn</a>
     </div>
-
-    <form action="" method="post" id="contact-form">
-        <label class="standard-label" for="contact-email">Email: </label>
-        <input type="email" id="contact-email" required><br>
-
-        <label class="standard-label" for="contact-tel">Telephone: </label>
-        <input type="tel" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}"><br>
-
-        <label class="standard-label" for="contact-message">Message: </label>
-        <textarea maxlength="240" id="contact-message" required></textarea><br>
-
-        <input type="submit" value="Send message">
-    </form>
-
-    <div>
-        Tyler Kunce<br>
-        Kansas City<br>
-        Missouri<br>
-        United States<br>
-        <br>
-        Tel <a href="tel:+1 555 111 2345">+1 555 111 2345</a><br>
-        Skype <a href="skype:placeholder">placeholder</a><br>
-        <a href="mailto:tyler.kunce@gmail.com">tyler.kunce@gmail.com</a><br>
-        <a href="mailto:tyler.kunce@gmail.com">Contact me</a>
-    </div>
-
+</div>
     <script src="js/tota11y.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
